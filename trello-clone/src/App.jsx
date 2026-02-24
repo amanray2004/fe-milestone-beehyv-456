@@ -44,12 +44,7 @@ function App() {
       {/* Navbar */}
       <div className="flex justify-between items-center p-4 bg-blue-600 text-white">
         <h1 className="text-xl font-bold">Trello Clone</h1>
-        <button
-          onClick={() => signOut(auth)}
-          className="bg-red-500 px-4 py-1 rounded"
-        >
-          Logout
-        </button>
+ 
       </div>
 
       {/* Routes */}

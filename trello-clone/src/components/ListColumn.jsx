@@ -125,7 +125,12 @@ export default function ListColumn({
         {/* CARDS */}
         <Droppable droppableId={list.id}>
         {(provided) => (
-            <div ref={provided.innerRef} {...provided.droppableProps}>
+
+            <div
+            ref={provided.innerRef}
+            {...provided.droppableProps}
+            className="min-h-[50px]"
+            >
             {list.cards?.map((card, index) => (
                 <Draggable
                 key={card.id}
